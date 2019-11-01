@@ -64,3 +64,255 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	max-width:100%;
+	border: 1 px solid grey;
+
+}
+
+/* header for all pages*/
+header nav {
+	display:flex;
+	width:100%;
+	justify-content:space-between;
+	justify-content: space-around;
+	
+
+}
+
+
+
+
+.logo{
+	
+	
+
+}
+
+.links{
+	display:flex;
+	justify-content:space-between;
+	width:45%;
+	align-content:center;
+}
+nav a{
+	text-decoration:none;
+	color: grey;
+	letter-spacing:3px;
+}
+
+/*header for all pages*/
+
+.title-container{
+	display:flex;
+	justify-content:space-evenly;
+	flex-direction:row;
+
+
+}
+
+.innovation{
+	font-size: 75px;
+	width: 40%;
+	text-align:center;
+	
+}
+
+#button { 
+	border: 1px solid black;
+	text-align:center;
+	font-size:18px;
+	width:120px;
+	height:30px;
+	
+
+}
+
+
+.first-section{
+	border-top: 1px solid black;
+	display:flex;
+}
+
+.features{
+	display:inline-block;
+	width:47%;
+	text-align:center;
+	margin: 3%;
+	box-sizing: border-box;
+}
+
+.about{
+	width: 40%;
+	display:inline-block;
+	text-align:center;
+	margin: 3%;
+	box-sizing: border-box;
+}
+
+
+
+.centerpic{
+	display:flex;
+	align-content: center;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+
+
+.second-section{
+	border-bottom: 1px solid black;
+	height:15%;
+	display:flex;
+	justify-content: space-evenly;
+
+}
+
+.services{
+	width:20%;
+	text-align:center;
+	
+	
+}
+
+.product{
+	width:20%;
+	text-align:center;
+
+	
+
+}
+
+.vision{
+	width:20%;
+	text-align:center;
+
+}
+
+.contact{
+	display:flex;
+	flex-direction:column;
+	line-height:30px;
+}
+
+
+
+footer{
+	text-align:center;
+}
+
+/*SERVICES CSS HERE*/
+
+.services-title{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	border-bottom: 1px solid ge;
+	
+	
+
+}
+
+.title-img{
+	display:flex;
+	justify-content: center;
+	width:100%;
+
+}
+
+.title-img img{
+	width:90%
+}
+
+.title-content h1{
+	font-size:30px;
+	width:90%;
+	
+
+}
+
+.services-title div{
+	padding:50px;
+}
+
+
+
+.Center-Content div{
+ width: 450px;
+  height: 250px;
+  background-color: lightgrey;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 30px;
+  flex-flow:column;
+  
+	
+}
+
+
+
+.Center-Content{
+	display:flex;
+	justify-content: space-evenly;
+	flex-flow: wrap;
+}
+
+
+
+.Center-Content button{
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	border-radius: 4px;
+	height: 35px;
+	width:150px;
+}
+
+.bottom-content{
+	border-top: 2px solid black;
+	display:flex;
+	justify-content: space-around;
+	
+
+}
+
+.bottom-content div{
+	padding:50px;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width:45%;
+
+	
+
+}
+
+.bottom-content h2{
+	font-size:25px;
+}
+
+.lists{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	list-style: square;
+}
+
+
+.bottom-picture{
+	width:50%;
+
+	
+}
+
+
+.footer{
+	padding:30px;
+	margin:20px;
+}
